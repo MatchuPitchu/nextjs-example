@@ -4,11 +4,8 @@
 // - and so on and so on ...
 import type { NextPage } from 'next';
 import Link from 'next/link';
-import React from 'react';
 
-type Props = {};
-
-const News: NextPage<Props> = (props) => {
+const News: NextPage = () => {
   return (
     <>
       <h1>News</h1>
