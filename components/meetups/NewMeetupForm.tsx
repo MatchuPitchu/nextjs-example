@@ -3,7 +3,7 @@ import type { NextPage } from 'next';
 import Card from '../ui/Card';
 import classes from './NewMeetupForm.module.css';
 
-type MeetupData = {
+export type MeetupData = {
   title: string;
   image: string;
   address: string;
