@@ -9,7 +9,7 @@ import '../styles/globals.css';
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <Layout>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </Layout>
   );
 };
